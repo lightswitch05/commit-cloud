@@ -6,19 +6,13 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta property="fb:admins" content="52703066" />
+        <meta property="fb:admins" content="52703066">
         <title>Commit Cloud</title>
         <meta name="description" content="Generates a word cloud using commit messages from public Github repos">
         <meta name="viewport" content="width=device-width">
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-        <!-- build:css(.tmp) styles/main.css -->
-        <link rel="stylesheet" href="styles/main.css">
-        <link rel="stylesheet" href="styles/jqcloud.css">
-        <link rel="stylesheet" href="styles/select2.css">
-        <!-- endbuild -->
-        <!-- build:js scripts/vendor/modernizr.js -->
-        <script src="bower_components/modernizr/modernizr.js"></script>
-        <!-- endbuild -->
+        <link rel="stylesheet" href="styles/51af2d67.main.css"/>
+        <script src="scripts/vendor/d7100892.modernizr.js"></script>
     </head>
     <body>
         <!--[if lt IE 10]>
@@ -29,13 +23,13 @@
         <div class="container">
             <div id="filter-container" class="hide">
                 <div id="slider"></div>
-                <input type="hidden" placeholder="Filter" id="filter" style="width: 100%; margin-bottom: 25px;" />
+                <input type="hidden" placeholder="Filter" id="filter" style="width: 100%; margin-bottom: 25px">
             </div>
-            <div id="cloud" style="width: 750px; height: 550px;"></div>
+            <div id="cloud" style="width: 750px; height: 550px"></div>
             
             <form id="repo">
                 <div class="input-group">
-                    <input name="repo" type="text" class="form-control input-lg" placeholder="github 'user/repo' or url" />
+                    <input name="repo" type="text" class="form-control input-lg" placeholder="github 'user/repo' or url">
                     <span class="input-group-btn">
                         <button class="btn btn-primary btn-lg" type="submit">Go!</button>
                     </span>
@@ -53,9 +47,7 @@
                     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
                 </li>
                 <li>
-                    <iframe style="border: 0; margin: 0; padding: 0;"
-                      src="https://www.gittip.com/lightswitch05/widget.html"
-                      width="48pt" height="22pt">
+                    <iframe style="border: 0; margin: 0; padding: 0" src="https://www.gittip.com/lightswitch05/widget.html" width="48pt" height="22pt">
                     </iframe>
                 </li>
             </ul>
@@ -74,12 +66,7 @@
         </div>
         
 
-        <!-- build:js scripts/vendor.js -->
-        <!-- bower:js -->
-        <script src="bower_components/jquery/jquery.js"></script>
-        <script src="bower_components/jquery-ui/ui/jquery-ui.js"></script>
-        <!-- endbower -->
-        <!-- endbuild -->
+        <script src="scripts/f45b7c21.vendor.js"></script>
 
         <script type="text/javascript">
           var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
@@ -92,19 +79,8 @@
           } catch(err) {}
         </script>
 
-        <!-- build:js scripts/plugins.js -->
-        <script src="bower_components/sass-bootstrap/js/modal.js"></script>
-        <script src="bower_components/select2/select2.js"></script>
-        <script src="bower_components/js-base64/base64.js"></script>
-        <script src="bower_components/underscore/underscore.js"></script>
-        <script src="bower_components/octokit/octokit.js"></script>
-
-        <script src="scripts/jqcloud-1.0.4.js"></script>
-        <!-- endbuild -->
+        <script src="scripts/0688af9e.plugins.js"></script>
         
-        <!-- build:js scripts/main.js -->
-        <script src="scripts/github-commits.js"></script>
-        <script src="scripts/main.js"></script>
-        <!-- endbuild -->
+        <script src="scripts/3beb5cd8.main.js"></script>
 </body>
 </html>
