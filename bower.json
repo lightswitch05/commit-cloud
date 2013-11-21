@@ -1,0 +1,14 @@
+{
+  "name": "commit-cloud",
+  "version": "0.0.1",
+  "dependencies": {
+    "sass-bootstrap": "~3.0.2",
+    "modernizr": "~2.6.2",
+    "jquery": "~1.10.2",
+    "select2": "~3.4.5",
+    "octokit": "0.9.9",
+    "js-base64": "2.1.2",
+    "jquery-ui": "1.10.3",
+    "underscore": "1.5.2"
+  }
+}
